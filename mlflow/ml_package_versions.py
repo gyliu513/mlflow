@@ -194,6 +194,15 @@ _ML_PACKAGE_VERSIONS = {
             "maximum": "1.0.0"
         }
     },
+    "llamastack": {
+        "package_info": {
+            "pip_release": "llama-stack-client"
+        },
+        "autologging": {
+            "minimum": "0.4.0",
+            "maximum": "1.0.0"
+        }
+    },
     "bedrock": {
         "package_info": {
             "pip_release": "boto3",
@@ -466,6 +475,7 @@ GENAI_FLAVOR_TO_MODULE_NAME = {
     "mistral": "mistralai",
     "litellm": "litellm",
     "groq": "groq",
+    "llamastack": "llama_stack_client",
     "bedrock": "boto3"
 }
 

@@ -3481,6 +3481,7 @@ def autolog(
         "crewai": "mlflow.crewai",
         "smolagents": "mlflow.smolagents",
         "groq": "mlflow.groq",
+        "llama_stack_client": "mlflow.llamastack",
         "strands": "mlflow.strands",
         "haystack": "mlflow.haystack",
         "boto3": "mlflow.bedrock",
